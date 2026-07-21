@@ -72,6 +72,50 @@ Two CSV files are exported to the Desktop:
 - readxl
 - lme4
 
+## Code availability
+
+The R code implementing the repeatability analysis described in this study is publicly available in this repository.
+
+The repository contains the complete workflow, including:
+
+- Data import
+- Three-level linear mixed-effects model fitting
+- Variance component estimation
+- ICC calculation
+- 95% difference threshold calculation
+- CSV export
+
+## Data availability
+
+The raw OCT data used in this study are not publicly available because they contain potentially identifiable clinical information and are subject to institutional ethical restrictions.
+
+No participant data are included in this repository.
+
+## License
+
+This software is released for non-commercial academic research and educational use only.
+
+Commercial use, redistribution for commercial purposes, or incorporation into commercial products or services is prohibited without prior written permission from Shinshu University.
+
+See the LICENSE file for complete terms.
+
+## Citation
+
+If you use this repository in your research, please cite both:
+
+1. the corresponding publication
+2. this GitHub repository
+
+Citation metadata are provided in the CITATION.cff file.
+
+## Disclaimer
+
+This software is provided for research purposes only.
+
+It is distributed "as is" without warranty of any kind.
+
+The author and Shinshu University assume no responsibility for any results, damages, or consequences arising from the use of this software.
+
 ## Methodological References
 
 The statistical methodology and implementation were developed with reference to the following publications and resources.
@@ -129,6 +173,15 @@ The statistical methodology and implementation were developed with reference to 
 **Note**
 
 The implementation and workflow in this repository were independently developed by the author based on the statistical methodology described in the references above. The source code was written by the author with assistance from ChatGPT (OpenAI) for code generation, explanation, and refinement. Responsibility for the implementation, validation, and interpretation remains solely with the author.
+
+## Repository structure
+
+repeatability_analysis.R
+README.md
+LICENSE
+CITATION.cff
+example_data/
+results/
 
 ## Author
 
