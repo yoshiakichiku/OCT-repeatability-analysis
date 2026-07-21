@@ -143,9 +143,11 @@ The statistical methodology and implementation were developed with reference to 
   PMCID: PMC9576476.
   PMID: 36239111.
 
-- *Applying Linear Mixed Models to Estimate Reliability in Clinical Trial Data with Repeated Measurements.*
-  Genomics & Informatics. 2022;20(3):e34.
-  https://doi.org/10.5808/gi.22052
+- Vangeneugden T, Laenen A, Geys H, Renard D, Molenberghs G.
+  *Applying linear mixed models to estimate reliability in clinical trial data with repeated measurements.*
+  **Control Clin Trials.** 2004;25(1):13–30.
+  https://doi.org/10.1016/j.cct.2003.08.009
+
 
 ### Reliability and repeatability
 
