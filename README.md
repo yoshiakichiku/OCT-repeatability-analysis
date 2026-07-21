@@ -176,12 +176,13 @@ The implementation and workflow in this repository were independently developed 
 
 ## Repository structure
 
-repeatability_analysis.R
-README.md
-LICENSE
-CITATION.cff
-example_data/
-results/
+```text
+.
+├── repeatability_analysis.R   # Main analysis script
+├── README.md                  # Project documentation
+├── LICENSE                    # License terms
+└── CITATION.cff               # Citation metadata
+```
 
 ## Author
 
