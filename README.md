@@ -4,6 +4,8 @@ R script for estimating retinal thickness repeatability using a three-level line
 
 ## Overview
 
+This repository provides a reproducible workflow for estimating retinal thickness repeatability from repeated OCT measurements using a three-level linear mixed-effects model.
+
 This script analyzes repeated retinal thickness measurements obtained from both eyes of multiple participants.
 
 The model partitions the total variance into:
@@ -69,6 +71,64 @@ Two CSV files are exported to the Desktop:
 - R 4.6.1
 - readxl
 - lme4
+
+## Methodological References
+
+The statistical methodology and implementation were developed with reference to the following publications and resources.
+
+### Linear mixed-effects models
+
+- Bates D, Mächler M, Bolker B, Walker S.
+  *Fitting Linear Mixed-Effects Models Using lme4.*
+  Journal of Statistical Software. 2015;67(1):1–48.
+  https://doi.org/10.18637/jss.v067.i01
+
+- lme4 package documentation.
+  https://lme4.github.io/lme4/reference/lmer.html
+
+- Park S, Chung Y.
+  *The Effect of Missing Levels of Nesting in Multilevel Analysis.*
+  Epidemiology and Health. 2022.
+  PMCID: PMC9576476.
+  PMID: 36239111.
+
+- *Applying Linear Mixed Models to Estimate Reliability in Clinical Trial Data with Repeated Measurements.*
+  Genomics & Informatics. 2022;20(3):e34.
+  https://doi.org/10.5808/gi.22052
+
+### Reliability and repeatability
+
+- Bland JM, Altman DG.
+  *Statistical Methods for Assessing Agreement Between Two Methods of Clinical Measurement.*
+  Lancet. 1986;1(8476):307–310.
+
+- Bland M.
+  *An Introduction to Medical Statistics.*
+  Oxford University Press.
+
+- *Quantitative Imaging Biomarkers: A Review of Statistical Methods for Technical Performance Assessment.*
+
+### Intraclass correlation coefficient (ICC)
+
+- Koo TK, Li MY.
+  *A Guideline of Selecting and Reporting Intraclass Correlation Coefficients for Reliability Research.*
+  Journal of Chiropractic Medicine. 2016;15(2):155–163.
+
+- Hedges LV, Hedberg EC.
+  *Intraclass Correlation Values for Planning Group Randomized Trials in Education.*
+  William T. Grant Foundation.
+  https://wtgrantfoundation.org/wp-content/uploads/2015/10/Intraclass-Correlation-Values-for-Planning-Group-Randomized-Trials-in-Education.pdf
+
+### Statistical computing
+
+- R Core Team.
+  *R: A Language and Environment for Statistical Computing.*
+  R Foundation for Statistical Computing.
+  https://www.R-project.org/
+
+**Note**
+
+The implementation and workflow in this repository were independently developed by the author based on the statistical methodology described in the references above. The source code was written by the author with assistance from ChatGPT (OpenAI) for code generation, explanation, and refinement. Responsibility for the implementation, validation, and interpretation remains solely with the author.
 
 ## Author
 
