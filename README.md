@@ -185,6 +185,7 @@ The implementation and workflow in this repository were independently developed 
 
 ```text
 .
+├── .gitignore
 ├── LICENSE
 ├── README.md
 ├── repeatability_analysis.R
