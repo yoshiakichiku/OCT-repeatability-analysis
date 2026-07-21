@@ -66,6 +66,22 @@ Two CSV files are exported to the Desktop:
 - Repeatability_main_table.csv
 - Repeatability_full_results.csv
 
+## Example dataset
+
+A sample dataset is included to demonstrate the expected input format and to verify that the analysis workflow produces the expected results.
+
+### Sample input
+
+sample_data/sample_repeatability_data.xlsx
+
+### Expected output
+
+sample_output/Repeatability_main_table.csv
+
+sample_output/Repeatability_full_results.csv
+
+The sample dataset is an artificially generated example created solely for demonstrating the analysis workflow. It does not contain data from any real participants.
+
 ## Software
 
 - R 4.6.1
@@ -98,15 +114,6 @@ This software is released for non-commercial academic research and educational u
 Commercial use, redistribution for commercial purposes, or incorporation into commercial products or services is prohibited without prior written permission from Shinshu University.
 
 See the LICENSE file for complete terms.
-
-## Citation
-
-If you use this repository in your research, please cite both:
-
-1. the corresponding publication
-2. this GitHub repository
-
-Citation metadata are provided in the CITATION.cff file.
 
 ## Disclaimer
 
@@ -178,10 +185,14 @@ The implementation and workflow in this repository were independently developed 
 
 ```text
 .
-├── repeatability_analysis.R   # Main analysis script
-├── README.md                  # Project documentation
-├── LICENSE                    # License terms
-└── CITATION.cff               # Citation metadata
+├── LICENSE
+├── README.md
+├── repeatability_analysis.R
+├── sample_data
+│   └── sample_repeatability_data.xlsx
+└── sample_output
+    ├── Repeatability_full_results.csv
+    └── Repeatability_main_table.csv
 ```
 
 ## Author
