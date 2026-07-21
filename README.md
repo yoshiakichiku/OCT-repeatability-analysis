@@ -172,7 +172,7 @@ The statistical methodology and implementation were developed with reference to 
 
 **Note**
 
-The implementation and workflow in this repository were independently developed by the author based on the statistical methodology described in the references above. The source code was written by the author with assistance from ChatGPT (OpenAI) for code generation, explanation, and refinement. Responsibility for the implementation, validation, and interpretation remains solely with the author.
+The implementation and workflow in this repository were independently developed by the author based on the statistical methodology described in the references above. The source code was originally written by the author. ChatGPT (OpenAI, GPT-5.5) was used only to assist with code refinement, explanation, documentation, and readability improvements. Responsibility for the implementation, validation, and interpretation remains solely with the author.
 
 ## Repository structure
 
